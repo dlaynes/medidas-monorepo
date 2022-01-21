@@ -4,6 +4,8 @@
 
 This project was generated using [Nx](https://nx.dev).
 
+Note: also see this [https://jakeginnivan.medium.com/using-typescript-project-references-in-nx-b3462b2fe6d4](https://jakeginnivan.medium.com/using-typescript-project-references-in-nx-b3462b2fe6d4)
+
 <p style="text-align: center;"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="450"></p>
 
 🔎 **Smart, Fast and Extensible Build System**
