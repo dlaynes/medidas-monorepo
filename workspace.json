@@ -1,10 +1,13 @@
 {
   "version": 2,
   "projects": {
+    "functions": "libs/functions",
     "medidas": "apps/medidas",
     "medidas-e2e": "apps/medidas-e2e",
     "shared-types": "libs/shared-types",
     "store": "libs/store",
-    "ui-medidas": "libs/ui-medidas"
+    "ui-medidas": "libs/ui-medidas",
+    "website": "apps/website",
+    "website-e2e": "apps/website-e2e"
   }
 }

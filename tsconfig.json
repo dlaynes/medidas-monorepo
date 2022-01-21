@@ -5,6 +5,9 @@
   },
   "references": [
     {
+      "path": "./libs/functions"
+    },
+    {
       "path": "./apps/medidas"
     },
     {
@@ -18,6 +21,12 @@
     },
     {
       "path": "./libs/ui-medidas"
+    },
+    {
+      "path": "./apps/website"
+    },
+    {
+      "path": "./apps/website-e2e"
     }
   ]
 }

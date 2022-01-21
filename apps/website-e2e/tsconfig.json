@@ -1,0 +1,16 @@
+{
+  "extends": "../../tsconfig.settings.json",
+  "compilerOptions": {
+    "sourceMap": false,
+    "outDir": "./out-tsc",
+    "allowJs": true,
+    "types": ["cypress", "node"],
+    "rootDir": "./src"
+  },
+  "include": ["src/**/*.ts", "src/**/*.js"],
+  "references": [
+    {
+      "path": "../../apps/website"
+    }
+  ]
+}
