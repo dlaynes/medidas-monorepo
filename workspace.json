@@ -2,6 +2,9 @@
   "version": 2,
   "projects": {
     "medidas": "apps/medidas",
-    "medidas-e2e": "apps/medidas-e2e"
+    "medidas-e2e": "apps/medidas-e2e",
+    "shared-types": "libs/shared-types",
+    "store": "libs/store",
+    "ui-medidas": "libs/ui-medidas"
   }
 }

@@ -13,7 +13,14 @@
     "react-native": "0.66.4",
     "tslib": "^2.0.0"
   },
+  "engines": {
+    "node": ">=14.17"
+  },
   "devDependencies": {
+    "@wanews/nx-esbuild": "^0.18.0",
+    "@wanews/nx-pulumi": "^0.18.6",
+    "@wanews/nx-typescript-project-references": "^0.17.1",
+    "@wanews/nx-vite": "^0.6.0",
     "@nrwl/cli": "13.4.6",
     "@nrwl/detox": "13.4.6",
     "@nrwl/eslint-plugin-nx": "13.4.6",

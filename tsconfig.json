@@ -1,0 +1,23 @@
+{
+  "files": [],
+  "compilerOptions": {
+    "disableSourceOfProjectReferenceRedirect": true
+  },
+  "references": [
+    {
+      "path": "./apps/medidas"
+    },
+    {
+      "path": "./apps/medidas-e2e"
+    },
+    {
+      "path": "./libs/shared-types"
+    },
+    {
+      "path": "./libs/store"
+    },
+    {
+      "path": "./libs/ui-medidas"
+    }
+  ]
+}

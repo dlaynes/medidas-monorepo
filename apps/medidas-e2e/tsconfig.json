@@ -1,10 +1,13 @@
 {
-  "extends": "../../tsconfig.base.json",
-  "files": [],
-  "include": [],
+  "extends": "../../tsconfig.settings.json",
   "references": [
     {
-      "path": "./tsconfig.e2e.json"
+      "path": "../../apps/medidas"
     }
-  ]
+  ],
+  "compilerOptions": {
+    "outDir": "./out-tsc",
+    "rootDir": "./src"
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx"]
 }
