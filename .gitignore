@@ -7,6 +7,7 @@
 
 # dependencies
 /node_modules
+/apps/medidas/node_modules
 
 # IDEs and editors
 /.idea
