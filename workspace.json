@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "projects": {
+    "medidas": "apps/medidas",
+    "medidas-e2e": "apps/medidas-e2e"
+  }
+}
