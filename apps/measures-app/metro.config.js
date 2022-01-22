@@ -1,4 +1,6 @@
 // Learn more https://docs.expo.io/guides/customizing-metro
+import 'dotenv/config';
+
 const { getDefaultConfig } = require('expo/metro-config');
 const path = require('path');
 

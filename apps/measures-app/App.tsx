@@ -7,8 +7,6 @@ import { SupabaseProvider } from "medidas-utils/react/contexts/supabase/context"
 import { SUPABASE_ANON_KEY, SUPABASE_URL } from './lib/constants';
 import { styles, theme } from './App.presets';
 
-// import { TMeasure } from "medidas-types/entities/Measure"
-
 const options = {
   localStorage: AsyncStorage
 };
