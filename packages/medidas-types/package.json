@@ -1,0 +1,9 @@
+{
+  "name": "medidas-types",
+  "version": "1.0.0",
+  "description": "Shared Types",
+  "main": "index.ts",
+  "author": "Donato Laynes",
+  "license": "MIT",
+  "private": true
+}
