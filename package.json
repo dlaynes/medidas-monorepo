@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "name": "expo-medidas",
+  "version": "1.0.0",
+  "description": "Daily Health Measures",
+  "main": "index.js",
+  "author": "Donato Laynes",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}

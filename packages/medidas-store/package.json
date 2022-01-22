@@ -1,0 +1,12 @@
+{
+    "name": "medidas-store",
+    "version": "1.0.0",
+    "description": "Shared Store",
+    "main": "index.ts",
+    "author": "Donato Laynes",
+    "license": "MIT",
+    "private": true,
+    "dependencies": {
+        "zustand": "^3.6.9"
+    }
+}

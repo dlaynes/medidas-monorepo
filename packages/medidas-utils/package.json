@@ -1,0 +1,13 @@
+{
+    "name": "medidas-utils",
+    "version": "1.0.0",
+    "description": "Shared Utilities",
+    "main": "index.ts",
+    "author": "Donato Laynes",
+    "license": "MIT",
+    "private": true,
+    "dependencies": {
+        "@supabase/supabase-js": "^1.29.3",
+        "react": "17.0.1"
+    }
+}
