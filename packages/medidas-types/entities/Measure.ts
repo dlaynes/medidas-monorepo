@@ -22,3 +22,9 @@ export type TMeasure =
   | TMeasureWeight
   | TMeasureBloodPressure
   | TMeasureHeartRate
+
+/* Objects that might be persisted should be stored with primitive fields */
+export type TMeasurePayload = TMeasure & {
+  created_at?: string
+  updated_at?: string
+}

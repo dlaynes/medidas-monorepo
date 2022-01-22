@@ -88,22 +88,5 @@ buck-out/
 
 ## CocoaPods
 **/ios/Pods/
-/
 
-## Nested node_modules
-
-node_modules/
-
-apps/medidas-e2e/artifacts
-## Nested node_modules
-
-node_modules/
-## Nested node_modules
-
-node_modules/
-## Nested node_modules
-
-node_modules/
-## Nested node_modules
-
-node_modules/
+node_modules
