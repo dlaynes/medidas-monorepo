@@ -30,13 +30,13 @@ const SupabaseProvider : React.FC<{
     const [ state, dispatch ] = useReducer(supabaseReducer, defaultState)
 
     useEffect(function(){
-        if(supabaseKey && supabaseUrl){
-            // May throw an error
-            const client_ = createClient(supabaseUrl, supabaseKey, supabaseClientOptions)
-            if(client_){
-                dispatch({name: ESupabaseActions.setClient, payload: {client: client_}})
-            }
+      if(supabaseKey && supabaseUrl){
+        // May throw an error
+        const client_ = createClient(supabaseUrl, supabaseKey, supabaseClientOptions)
+        if(client_){
+          dispatch({name: ESupabaseActions.setClient, payload: {client: client_}})
         }
+      }
     }, [supabaseUrl, supabaseKey, supabaseClientOptions])
 
     useEffect(function(){
