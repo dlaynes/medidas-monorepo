@@ -3,7 +3,7 @@ import { View } from 'react-native';
 import { ThemeProvider, Text } from 'react-native-elements'
 import AsyncStorage from '@react-native-async-storage/async-storage'
 
-import { SupabaseProvider } from "medidas-utils/react/contexts/supabase/context"
+import { SupabaseProvider } from "medidas-store/contexts/supabase"
 import { SUPABASE_ANON_KEY, SUPABASE_URL } from './lib/constants';
 import { styles, theme } from './App.presets';
 

@@ -7,7 +7,7 @@ import { ESupabaseActions } from './actions'
 import type { IBaseContextData } from "../base/types"
 
 import { defaultMethods, defaultState, supabaseReducer } from "./reducer"
-import { noop } from "../../../functions/empty"
+import { noop } from "medidas-utils/functions/empty"
 
 const SupabaseContext = createContext<IBaseContextData<TSupabaseAction>>({
     state: defaultState,

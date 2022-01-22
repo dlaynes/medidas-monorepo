@@ -7,6 +7,6 @@
     "license": "MIT",
     "private": true,
     "dependencies": {
-        "zustand": "^3.6.9"
+
     }
 }

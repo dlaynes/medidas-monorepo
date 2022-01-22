@@ -1,5 +1,5 @@
 import type { SupabaseClient, Session, User, UserCredentials } from "@supabase/supabase-js";
-import { noop } from "../../../functions/empty";
+import { noop } from "medidas-utils/functions/empty";
 import type { TSupabaseAction } from "./actions"
 import { ESupabaseActions } from "./actions";
 
